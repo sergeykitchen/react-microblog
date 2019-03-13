@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'react-redux-toastr/lib/css/react-redux-toastr.min.css'
-import './styles.css';
+import './styles.scss';
 import * as serviceWorker from './serviceWorker';
 import store from './store';
 import App from './App';

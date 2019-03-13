@@ -2,8 +2,10 @@
     box-shadow: none;
 }
 
-form .error input, form textarea.error {
-    border: 1px solid #F5B7B1;
+form {
+    .error input, textarea.error {
+        border: 1px solid #F5B7B1;
+    }
 }
 
 .form-container {
@@ -50,21 +52,3 @@ form .error input, form textarea.error {
     word-wrap: break-word;
   }
 
-.loader {
-    height: 0;
-    width: 0;
-    padding: 15px;
-    border: 6px solid #ccc;
-    border-right-color: #888;
-    border-radius: 22px;
-    animation: rotate 1s infinite linear;
-    position: absolute;
-    left: calc(50% - 22px);
-    top: 50%;
-}
-
-@-webkit-keyframes rotate {
-    100% {
-        transform: rotate(360deg);
-    }
-}

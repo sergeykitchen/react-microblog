@@ -15,7 +15,10 @@ class PostForm extends Component {
       title: '',
       content: '',
       imagePath: '',
-      category: '',
+      category: {
+        label: '',
+        id: null,
+      },
       postKey: '',
     }
     const defaultState = this.props.currentPost ? this.props.currentPost : emptyPost;
