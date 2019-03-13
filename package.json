@@ -1,0 +1,45 @@
+{
+  "name": "test-task",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "email-validator": "^2.0.4",
+    "firebase": "^5.8.4",
+    "history": "^4.7.2",
+    "ramda": "^0.26.1",
+    "react": "^16.8.3",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-click-outside": "^3.0.1",
+    "react-dom": "^16.8.3",
+    "react-redux": "^6.0.1",
+    "react-redux-toastr": "^7.4.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "serve": "^10.1.2",
+    "uid": "0.0.2"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

@@ -1,0 +1,70 @@
+.btn:focus {
+    box-shadow: none;
+}
+
+form .error input, form textarea.error {
+    border: 1px solid #F5B7B1;
+}
+
+.form-container {
+    height: 100%;
+}
+
+.img-preload {
+    width: 100px;
+}
+
+.prev-post-thumnail {
+    height: 120px;
+}
+
+.img-post-thumnail {
+    height: 280px;
+}
+
+.post-title {
+    text-transform: uppercase;
+    color: #007bff;
+}
+
+.category-label {
+    margin: 0;
+    color: #749796;
+    font-weight: 700;
+    text-transform: lowercase;
+}
+
+.category-label.pointer {
+    cursor: pointer;
+}
+
+.pointer:hover {
+    color: #6E7A7A;
+}
+
+.post-item {
+    padding: 20px;
+}
+
+.post-text{
+    word-wrap: break-word;
+  }
+
+.loader {
+    height: 0;
+    width: 0;
+    padding: 15px;
+    border: 6px solid #ccc;
+    border-right-color: #888;
+    border-radius: 22px;
+    animation: rotate 1s infinite linear;
+    position: absolute;
+    left: calc(50% - 22px);
+    top: 50%;
+}
+
+@-webkit-keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,38 @@
+.selectInput-Wrapper{
+  position: relative;
+  span{
+    cursor:pointer;
+  }
+}
+.selectInput-Options{
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top-color: #e6e6e6;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  margin-top: -1px;
+  max-height: 200px;
+  position: absolute;
+  top: 100%;
+  z-index: 5;
+  overflow-y: auto;
+  width: 100%
+}
+.selectInput-Option {
+  cursor: pointer;
+  display: block;
+  box-sizing: border-box;
+  padding: 8px 10px;
+  &:hover{
+    background-color: rgba(0, 133, 255, 0.24);
+  }
+}
+
+.delete-image {
+  display: inline-block;
+  margin-left: 15px;
+  position: relative;
+  top: -3px;
+} 
